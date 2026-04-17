@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Little Women</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+        <link href="css/little-women.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="page">
+        <a class="back-home" href="index.html">Back to Home</a>
+        <h1>Little Women</h1>
+        <section class="image-gallery">
+            <figure class="side-art">
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Louisa_May_Alcott_Little_Women_1880_Frank_T_Merrill_He_put_the_sisters_p435.jpg"
+                    alt="Public-domain illustration of the March sisters from Little Women"
+                />
+                <figcaption>The March Sisters</figcaption>
+            </figure>
+            <figure class="side-art">
+                <img
+                    src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/08/Timothee-Chalamet-as-Laurie-in-Little-Women.jpg"
+                    alt="Jo and Laurie in the 2019 Little Women film"
+                />
+                <figcaption>2019 Film Still</figcaption>
+            </figure>
+            <figure class="side-art">
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Little-Women-1912.jpg"
+                    alt="Public-domain Little Women stage image featuring Jo and Laurie"
+                />
+                <figcaption>Jo and Laurie</figcaption>
+            </figure>
+            <figure class="side-art">
+                <img
+                    src="https://cdni.fancaps.net/file/fancaps-movieimages/4048494.jpg"
+                    alt="Little Women film image"
+                />
+                <figcaption>Little Women Scene</figcaption>
+            </figure>
+            <figure class="side-art">
+                <img
+                    src="https://image.pbs.org/gracenote/pbsd.tmsimg.com/assets/p15224673_i_h8_aa.jpg?crop=710x399x0x20"
+                    alt="The March House"
+                />
+                <figcaption>The March House</figcaption>
+            </figure>
+        </section>
+        <div class="description-box">
+            <p class="question">
+                <em>Little Women</em> is a classic novel by Louisa May Alcott that follows the lives of the four March sisters, Meg, Jo, Beth, and Amy, as they grow up, navigate family relationships, and discover who they want to become. The story explores love, ambition, sacrifice, and the challenges of finding your place in the world.
+            </p>
+        </div>
+        <iframe
+            class="media-frame video-frame"
+            src="https://www.youtube.com/embed/h6rFiaUncGk"
+            title="Little Women YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+        <div class="viz-wrap">
+        <div class='tableauPlaceholder' id='viz1776453715463' style='position: relative'>
+            <noscript><a href='#'><img alt='Word Cloud for Little Women Novel ' src='https://public.tableau.com/static/images/Wo/WordCloudforLittleWomenNovel/Sheet1/1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='WordCloudforLittleWomenNovel/Sheet1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Wo/WordCloudforLittleWomenNovel/Sheet1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        </div>
+        <section class="quiz-shell">
+            <div id="quiz-app"></div>
+        </section>
+        <blockquote class="page-quote">
+            "I am not afraid of storms, for I am learning how to sail my ship."
+        </blockquote>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1776453715463');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <script>
+            const questions = [
+                {
+                    question: "How do you usually spend your free time?",
+                    options: [
+                        { text: "Writing or being creative", type: "Jo" },
+                        { text: "Helping others or volunteering", type: "Beth" },
+                        { text: "Socializing and dressing up", type: "Meg" },
+                        { text: "Making art or daydreaming", type: "Amy" }
+                    ]
+                },
+                {
+                    question: "What is your biggest strength?",
+                    options: [
+                        { text: "Independence", type: "Jo" },
+                        { text: "Kindness", type: "Beth" },
+                        { text: "Responsibility", type: "Meg" },
+                        { text: "Ambition", type: "Amy" }
+                    ]
+                },
+                {
+                    question: "Pick a flaw you relate to:",
+                    options: [
+                        { text: "Stubbornness", type: "Jo" },
+                        { text: "Shyness", type: "Beth" },
+                        { text: "Vanity", type: "Meg" },
+                        { text: "Jealousy", type: "Amy" }
+                    ]
+                },
+                {
+                    question: "What motivates you most?",
+                    options: [
+                        { text: "Freedom and passion", type: "Jo" },
+                        { text: "Love and family", type: "Beth" },
+                        { text: "Stability and comfort", type: "Meg" },
+                        { text: "Success and recognition", type: "Amy" }
+                    ]
+                }
+            ];
+
+            const descriptions = {
+                Jo: "You are Jo March! Bold, independent, and passionate about your dreams.",
+                Beth: "You are Beth March! Gentle, kind, and deeply caring.",
+                Meg: "You are Meg March! Responsible, loving, and value family and stability.",
+                Amy: "You are Amy March! Artistic, ambitious, and driven to succeed."
+            };
+
+            const state = {
+                current: 0,
+                answers: [],
+                result: null
+            };
+
+            const quizApp = document.getElementById("quiz-app");
+
+            function calculateResult(answers) {
+                const count = {};
+
+                answers.forEach((answer) => {
+                    count[answer] = (count[answer] || 0) + 1;
+                });
+
+                return Object.keys(count).reduce((a, b) => (count[a] > count[b] ? a : b));
+            }
+
+            function handleAnswer(type) {
+                state.answers.push(type);
+
+                if (state.current + 1 < questions.length) {
+                    state.current += 1;
+                } else {
+                    state.result = calculateResult(state.answers);
+                }
+
+                renderQuiz();
+            }
+
+            function restartQuiz() {
+                state.current = 0;
+                state.answers = [];
+                state.result = null;
+                renderQuiz();
+            }
+
+            function renderQuiz() {
+                if (!state.result) {
+                    const currentQuestion = questions[state.current];
+                    const optionsMarkup = currentQuestion.options
+                        .map(
+                            (option) =>
+                                `<button class="quiz-button" data-type="${option.type}">${option.text}</button>`
+                        )
+                        .join("");
+
+                    quizApp.innerHTML = `
+                        <h2>Which March Sister Are You?</h2>
+                        <p class="question">${currentQuestion.question}</p>
+                        <div class="answers">${optionsMarkup}</div>
+                    `;
+
+                    quizApp.querySelectorAll(".quiz-button").forEach((button) => {
+                        button.addEventListener("click", () => handleAnswer(button.dataset.type));
+                    });
+                } else {
+                    quizApp.innerHTML = `
+                        <div class="result">
+                            <h2>Your Result</h2>
+                            <p>${descriptions[state.result]}</p>
+                            <button class="quiz-button" id="restart-quiz">Retake Quiz</button>
+                        </div>
+                    `;
+
+                    document.getElementById("restart-quiz").addEventListener("click", restartQuiz);
+                }
+            }
+
+            renderQuiz();
+        </script>
+    </body>
+</html>
